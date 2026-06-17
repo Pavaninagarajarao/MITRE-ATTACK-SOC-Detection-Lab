@@ -19,8 +19,7 @@ This project documents an end-to-end purple team detection lab built from scratc
 ## Detections
 - [T1059.001 – Encoded PowerShell Execution](detections/T1059.001-encoded-powershell.md)
 - [T1082 – System Information Discovery](detections/T1082-system-info-discovery.md)
-- T1003.001 – LSASS Credential Dumping *(in progress — see Known Gaps below)*
-
+-- [T1003.001 – LSASS Credential Dumping](detections/T1003.001-lsass-credential-dumping.md) *(in progress — see Known Gaps below)*
 ## Dashboard
 A Splunk dashboard ("ATT&CK Detection Coverage") visualizes technique coverage across the lab, including:
 - Sysmon Process Creation Events (T1059 coverage)
