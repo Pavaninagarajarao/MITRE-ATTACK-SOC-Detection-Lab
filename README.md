@@ -38,9 +38,6 @@ This lab is a work in progress. Documenting gaps honestly is part of thinking li
 ## Screenshots
 See the `screenshots/` folder for dashboard views, detection hits, and event code references.
 
-## Full Write-Up
-See [mitre_attck_soc_detection_lab.pdf](mitre_attack_soc_detection_lab.pdf) for the complete report.
-
 ## What This Demonstrates
 - **SIEM deployment and configuration:** Deployed Splunk with a Universal Forwarder, created custom indexes, and validated log ingestion from a Windows endpoint
 - **Endpoint telemetry tuning:** Installed and configured Sysmon using an industry-standard baseline config to enrich Windows event logging
