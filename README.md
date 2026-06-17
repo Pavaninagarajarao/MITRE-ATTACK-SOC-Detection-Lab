@@ -39,7 +39,7 @@ This lab is a work in progress. Documenting gaps honestly is part of thinking li
 See the `screenshots/` folder for dashboard views, detection hits, and event code references.
 
 ## Full Write-Up
-See [mitre_attck_soc_detection_lab.pdf] for the complete report.
+See [mitre_attck_soc_detection_lab.pdf](mitre_attack_soc_detection_lab.pdf) for the complete report.
 
 ## What This Demonstrates
 - **SIEM deployment and configuration:** Deployed Splunk with a Universal Forwarder, created custom indexes, and validated log ingestion from a Windows endpoint
@@ -49,4 +49,4 @@ See [mitre_attck_soc_detection_lab.pdf] for the complete report.
 - **Threat hunting:** Built SPL queries to identify suspicious process creation, encoded command lines, and LSASS memory access patterns
 - **SOC documentation:** Created detection runbooks with technique context, true positive examples, false positive guidance, and response steps
 - **Dashboard development:** Built a Splunk dashboard to visualize ATT&CK technique coverage and triggered alert history
--
+- **Lab design:** Designed and operated an end-to-end purple team detection lab independently, from infrastructure setup through detection validation
